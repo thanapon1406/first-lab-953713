@@ -17,3 +17,10 @@ if (studentScore > 80) {
 } else {
   console.log("F");
 }
+
+import add, { subtract } from "./funtion2";
+
+const result = add(1, 2) + 0;
+const result2 = subtract(1, 2) + 0;
+console.log(result, "type of result:", typeof result);
+console.log(result2, "type of result2:", typeof result2);
